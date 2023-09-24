@@ -15,6 +15,7 @@ services:
     networks:
       - nest_test
     restart: unless-stopped
+
   nest_test_pgadmin:
     container_name: nest_test_pgadmin
     image: dpage/pgadmin4
