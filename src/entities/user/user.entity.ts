@@ -24,3 +24,10 @@ export class User {
   @Column({ name: 'gender', type: 'enum', enum: E_Gender, nullable: true })
   gender: E_Gender | null;
 }
+
+// "email": "pisik@pipi.com",
+// "password": "pisik",
+// "nameFirst": "Pisik",
+// "nameLast": "Piskovych",
+// "birthDate": "2023-09-24T13:03:03.459Z",
+// "gender": "m"
